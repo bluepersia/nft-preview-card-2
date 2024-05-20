@@ -1,0 +1,39 @@
+:root 
+{
+    --c-SoftBlue: #8BACD9;
+    --c-White: white;
+    --c-Cyan: #00FFF8;
+    --c-MainBg: #0D192C;
+    --c-CardBg: #15263F;
+    --c-Line: #2E405A;
+}
+
+
+html 
+{
+    font-size: 18px;
+}
+
+body 
+{
+    margin: 0;
+    background-color: var(--c-MainBg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child {
+    margin-top: 0;
+}
+
+* :last-child {
+    margin-bottom: 0;
+}
