@@ -37,3 +37,41 @@ body
 * :last-child {
     margin-bottom: 0;
 }
+
+
+
+/* Typography */
+
+.c 
+{
+    font-family: "Outfit", sans-serif;
+    line-height: 1.44;
+    font-weight: 300;
+}
+
+.c h1 
+{
+    font-size: 1.22rem;
+    line-height: auto;
+    font-weight: 600;
+}
+
+.c__caption 
+{
+    font-size: .83rem;
+    line-height: auto;
+    font-weight: 400;
+}
+
+.c__caption--bold 
+{
+    font-weight: 600;
+}
+
+@media (min-width:768px)
+{
+    .c__caption
+    {
+        font-size: .88rem;
+    }
+}
