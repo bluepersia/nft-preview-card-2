@@ -47,6 +47,7 @@ body
     font-family: "Outfit", sans-serif;
     line-height: 1.44;
     font-weight: 300;
+    color: var(--c-SoftBlue);
 }
 
 .c h1 
@@ -54,6 +55,7 @@ body
     font-size: 1.22rem;
     line-height: auto;
     font-weight: 600;
+    color: var(--c-White);
 }
 
 .c__caption 
@@ -74,4 +76,84 @@ body
     {
         font-size: .88rem;
     }
+}
+
+/* Layout */
+
+.c {
+    max-width: 350px;
+    background-color: var(--c-CardBg);
+    border-radius: 15px;
+}
+
+.c__header {
+    padding: 1.33em;
+    padding-bottom: 0;
+}
+
+.c__img-main {
+    width: 100%;
+    display: block;
+    max-width: 604px;
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.c__content {
+    padding: 1.33em;
+    padding-bottom: 1.77em;
+}
+
+.c__title {
+    margin-top: 0;
+}
+
+.c__main {
+    border-bottom: 1px solid var(--c-Line);
+    padding-bottom: 1.33em;
+}
+
+.c__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c__caption-container {
+    display: flex;
+    align-items: center;
+    gap: .38em;
+}
+
+.c__ethereum-value {
+    color: var(--c-Cyan);
+}
+
+.c__ethereum-value, .c__time-value {
+    margin-top: 0;
+}
+
+.c__footer {
+    display: flex;
+    align-items: center;
+    gap: .88em;
+    padding-top: .88em;
+}
+
+.c__img-profile 
+{
+    width: 33px;
+    height: 33px;
+    border: solid 1px var(--c-White);
+    border-radius: 50%;
+}
+
+.c__creation 
+{
+    margin-top: 0;
+}
+
+.c__caption span 
+{
+    color: var(--c-White);
 }
